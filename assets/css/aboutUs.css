@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  padding-bottom: 10px;
+}
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--main-color);
+}
+.about .more-btn {
+  background: var(--main-color);
+}
+.about .more-btn:hover {
+  color: #ffffff;
+}
+.about .more-btn:hover i {
+  color: #fff;
+}

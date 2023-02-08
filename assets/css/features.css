@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  transition: 0.3s;
+  border: 2px solid #f2d7fd;
+  border-radius: 0.375rem;
+  background: rgba(255, 247, 255, 0.8);
+}
+.features .icon-box i {
+  font-size: 32px;
+  padding-right: 3px;
+  padding-left: 10px;
+  line-height: 1;
+}
+.features .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  position: relative;
+  transition: all ease-in-out 0.4s;
+}
+.features .icon-box h3:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  background-color: var(--main-color);
+  bottom: -5px;
+  transition: all ease-in-out 0.4s;
+}
+.features .icon-box:hover h3:before {
+  width: 100%;
+  transition: all ease-in-out 0.4s;
+}
+.features .icon-box h3 a {
+  color: var(--color-link);
+  transition: 0.3s;
+}
+.features .icon-box:hover {
+  border-color: var(--main-color);
+}
+.features .icon-box:hover h3 a {
+  color: var(--main-color);
+}

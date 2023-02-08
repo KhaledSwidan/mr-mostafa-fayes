@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  padding: 0;
+}
+#hero-img img {
+  width: 100%;
+}
+#hero .mr-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  #hero .mr-laptop {
+    display: none;
+  }
+  #hero .mr-mobile {
+    display: block;
+  }
+}

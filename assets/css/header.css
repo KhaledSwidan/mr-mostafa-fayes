@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: var(--background-opacity80);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
+  box-shadow: 0px 0 15px rgb(59 55 66 / 30%);
+}
+/**
+* Get Startet Button 
+*/
+.get-started-btn {
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  z-index: 1000;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  margin: 0 0 0 15px;
+}
+.get-started-btn:hover {
+  background: #3a1d91;
+  box-shadow: 0px 0 8px rgba(58, 29, 145, 0.596);
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .get-started-btn {
+    padding: 6px 18px;
+  }
+}

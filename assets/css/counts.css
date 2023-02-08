@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding: 20px 0;
+  background-color: #fff;
+}
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  color: var(--main-color);
+  font-weight: 700;
+}
+.counts .counters p {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.counts .count-box {
+  padding: 5px 0px;
+  transition: all ease-in-out 0.4s;
+  border: 2px solid #f2d7fd;
+  border-radius: 0.375rem;
+  background: rgba(255, 247, 255, 0.8);
+}
+.count-box:hover {
+  border-color: var(--main-color);
+  transition: all ease-in-out 0.4s;
+}

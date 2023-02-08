@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------
+# Trainers
+--------------------------------------------------------------*/
+.trainers .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #faf6fd;
+  border-radius: 0.375rem;
+  position: relative;
+  transition: all .3s ease-in-out;
+}
+.trainers .member:hover{
+  box-shadow: 0 0 3px var(--main-color);
+  transform: scale(1.01);
+  transition: all .3s ease-in-out;
+}
+.trainers .member img {
+  margin: 0px 0px 10px 0px;
+  border-radius: 0.2rem;
+}
+.trainers .member .member-content {
+  padding: 0 10px 15px 10px;
+}
+.trainers .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #000;
+}
+.trainers .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.trainers .member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #545454;
+}
+.trainers .member .social {
+  margin-top: 15px;
+}
+.trainers .member .social a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--background-opacity50);
+  color: #585858;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.trainers .member .social a:hover {
+  background: var(--main-color);
+  color: #fff;
+  text-decoration: none;
+}
+.trainers .member .social i {
+  font-size: 20px;
+  margin: 0 2px;
+}

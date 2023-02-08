@@ -1,0 +1,16 @@
+@import "./variables.css";
+@import "./general.css";
+@import "./header.css";
+@import "./navigation.css";
+@import "./mobileNav.css";
+@import "./hero.css";
+@import "./sectionsGeneral.css";
+@import "./aboutUs.css";
+@import "./counts.css";
+@import "./whyUs.css";
+@import "./features.css";
+@import "./courses.css";
+@import "./trainers.css";
+@import "./testimonials.css";
+@import "./contact.css";
+@import "./footer.css";

@@ -1,0 +1,104 @@
+/*--------------------------------------------------------------
+# Courses
+--------------------------------------------------------------*/
+.courses {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/events-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.courses .course-content {
+  background-color: var(--main-color);
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 0.375rem;
+}
+.courses .course-content h3 {
+  font-size: 20px;
+  position: relative;
+  color: #fff;
+}
+.courses .course-content h3:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--background-opacity100);
+  bottom: -6px;
+  transition: all ease-in-out 0.4s;
+}
+.courses .course-content:hover h3:before {
+  width: 60%;
+  transition: all ease-in-out 0.4s;
+}
+.courses .course-content p {
+  font-size: 14px;
+  color: #d2d2d2;
+  margin-bottom: 25px;
+}
+.courses .trainer {
+  padding-top: 15px;
+  border-top: 1px solid var(--background-opacity100);
+}
+.courses .trainer .trainer-profile img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+.courses .trainer .trainer-profile span {
+  padding: 0 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.courses .trainer .trainer-rank {
+  color: #d2d2d2;
+}
+.courses .btn-watch-video {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0.3rem;
+  transition: all ease-in-out 0.4s;
+  padding: 5px 8px;
+}
+.courses .btn-watch-video i {
+  transition: all ease-in-out 0.4s;
+  line-height: 0;
+  color: #fff;
+  font-size: 32px;
+  transition: 0.3s;
+  margin-left: 5px;
+}
+.courses .btn-watch-video:hover {
+  margin-right: 5px;
+}
+.courses .course-content:hover .btn-watch-video {
+  background-color: var(--background-opacity100);
+}
+.courses #courses-filters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.courses #courses-filters li:hover,
+.courses #courses-filters li.filter-active {
+  background: var(--main-color);
+  color: #fff;
+}

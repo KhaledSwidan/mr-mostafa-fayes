@@ -1,0 +1,9 @@
+:root {
+  --main-color: #45289f;
+  --main-color-hover: #3a1d91;
+  --background-opacity80: rgba(174 146 255 / 80%);
+  --background-opacity50: rgba(174 146 255 / 50%);
+  --background-opacity100: rgba(174 146 255 / 100%);
+  --background-link: rgba(216, 202, 255, 0.8);
+  --color-link: #181818;
+}
