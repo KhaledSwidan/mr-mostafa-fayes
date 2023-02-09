@@ -25,11 +25,12 @@
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: var(--color-link);
   white-space: nowrap;
   transition: 0.3s;
   padding: 2px 4px;
   border-radius: 0.275rem;
+  color: #fff;
+  color: var(--color-link);
 }
 .navbar a:hover,
 .navbar .active,
