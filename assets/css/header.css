@@ -6,6 +6,7 @@
   z-index: 997;
   padding: 10px 0;
   box-shadow: 0px 0 15px rgb(59 55 66 / 30%);
+  backdrop-filter: blur(2px);
 }
 .headerBgWhite {
   background: rgba(255, 255, 255, 0.3);
@@ -35,6 +36,7 @@
   background: #3a1d91;
   box-shadow: 0px 0 8px rgba(58, 29, 145, 0.596);
   color: #fff;
+  padding-left: 50px;
 }
 @media (max-width: 768px) {
   .get-started-btn {

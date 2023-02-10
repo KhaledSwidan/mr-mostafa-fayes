@@ -28,24 +28,51 @@
         <nav id="navbar" class="navbar">
           <ul>
             <li class="nav-item px-2">
-              <a class="nav-link active" aria-current="page" href="index.html">
+              <a
+                class="nav-link scrollto active"
+                aria-current="page"
+                href="#hero">
                 الرئيسية
               </a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#about"> تعرف علينا </a>
+              <a class="nav-link scrollto" href="#about"> تعرف علينا </a>
+            </li>
+            <li class="nav-item px-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                الدروس
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item scrollto" href="youtube.html"
+                    >اليوتيوب</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item scrollto" href="courses.html"
+                    >الدروس المجانية</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <p class="d-flex align-items-center justify-content-center">
+                    جملة تعريفية
+                  </p>
+                </li>
+              </ul>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#popular-courses"> محاضرات مجانية </a>
+              <a class="nav-link scrollto" href="honor.html"> لوحة الشرف </a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#honor"> لوحة الشرف </a>
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link" href="#events"> اليوتيوب </a>
-            </li>
-            <li class="nav-item px-2">
-              <a class="nav-link" href="#Parents"> أولياء الأمور </a>
+              <a class="nav-link scrollto" href="parents.html"> أولياء الأمور </a>
             </li>
             <li class="nav-item px-2 dropdown">
               <a
@@ -58,10 +85,10 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href=""> تقييم الطالب </a>
+                  <a class="dropdown-item scrollto" href=""> تقييم الطالب </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href=""> رابط اخر </a>
+                  <a class="dropdown-item scrollto" href=""> رابط اخر </a>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
@@ -237,7 +264,7 @@
                   قد تكمن السعاده فيما نتحمله من كد وأسي.
                 </p>
                 <div class="text-center">
-                  <a href="" class="more-btn">
+                  <a href="aboutUs.html" class="more-btn">
                     تعرف على المزيد
                     <i class="bi bi-chevron-right"></i>
                   </a>
@@ -377,324 +404,6 @@
       </section>
       <!-- End Features Section -->
 
-      <!-- ======= Popular Courses Section ======= -->
-      <section id="popular-courses" class="courses section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>الدورات</h2>
-            <p>
-              وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد
-              يرفض أو يكره أو يتجنب الشعور بالسعاد
-            </p>
-          </div>
-
-          <ul
-            id="courses-filters"
-            class="d-flex justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="100">
-            <li data-filter="*" class="filter-active">الكل</li>
-            <li data-filter=".filter-1st">الصف الأول الثانوى</li>
-            <li data-filter=".filter-2nd">الصف الثانى الثانوى</li>
-            <li data-filter=".filter-3rd">الصف الثالث الثانوى</li>
-          </ul>
-
-          <div
-            class="row courses-container"
-            data-aos="fade-up"
-            data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-1st">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الأول الثانوي<br />
-                    <span class="fs-6">الدرس الأول</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-3rd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثالث الثانوى<br />
-                    <span class="fs-6">الدرس الثالث</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-1st">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الأول الثانوى<br />
-                    <span class="fs-6">الدرس الرابع</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-2nd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثانى الثانوى<br />
-                    <span class="fs-6">الدرس الثانى</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-2nd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثانى الثانوى<br />
-                    <span class="fs-6">الدرس الأول</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-3rd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثالث الثانوى<br />
-                    <span class="fs-6">الدرس الثانى</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-2nd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثانى الثانوى<br />
-                    <span class="fs-6">الدرس الثالث</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-2nd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثانى الثانوى<br />
-                    <span class="fs-6">الدرس الرابع</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 course-item my-2 filter-3rd">
-              <div class="course-content">
-                <div>
-                  <h3>
-                    الصف الثالث الثانوى<br />
-                    <span class="fs-6">الدرس الرابع</span>
-                  </h3>
-                  <p>
-                    لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار
-                    النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف
-                    حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو
-                    يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا
-                    يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية
-                    ومنطقية
-                  </p>
-                </div>
-                <div
-                  class="trainer d-flex justify-content-between align-items-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=9VJJSCVH_Wk"
-                    class="glightbox btn-watch-video">
-                    <i class="bi bi-play-circle"></i>
-                    <span>تصفح الكورس</span>
-                  </a>
-                  <div class="trainer-rank d-flex align-items-center">
-                    <i class="bi bi-person-video3"></i>&nbsp;50 &nbsp;&nbsp;
-                    <i class="bi bi-heart"></i>&nbsp;65
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Popular Courses Section -->
-
       <!-- ======= Trainers Section ======= -->
       <section id="trainers" class="trainers">
         <div class="container" data-aos="fade-up">
@@ -796,10 +505,10 @@
               <h4>روابط مهمة</h4>
               <ul>
                 <li>
-                  <i class="bi bi-chevron-left"></i> <a href="">الرئيسية</a>
+                  <i class="bi bi-chevron-left"></i> <a href="index.html">الرئيسية</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-left"></i> <a href="">تعرف علينا</a>
+                  <i class="bi bi-chevron-left"></i> <a href="aboutUs.html">تعرف علينا</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-left"></i> <a href="">الخدمات</a>
