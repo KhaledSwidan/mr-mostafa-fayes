@@ -915,3 +915,13 @@ section {
     display: block;
   }
 }
+@media (max-width: 576px) {
+  .footer-contact {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+}
+.footer-tel a:hover {
+  text-decoration: underline;
+}
